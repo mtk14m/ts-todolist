@@ -3,7 +3,7 @@ export class TodoCollection {
     userName;
     todoItems;
     nextId = 1;
-    itemMap = new Map;
+    itemMap = new Map();
     constructor(userName, todoItems = []) {
         this.userName = userName;
         this.todoItems = todoItems;

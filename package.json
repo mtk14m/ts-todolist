@@ -11,7 +11,8 @@
   "description": "",
   "type": "module",
   "dependencies": {
-    "inquirer": "^10.0.1"
+    "inquirer": "^10.0.1",
+    "lowdb": "^5.1.0"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
