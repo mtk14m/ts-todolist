@@ -4,7 +4,6 @@ type ItemCounts = {
     total: number, 
     incomplete: number
 }
-
 export class TodoCollection{
     private nextId: number = 1;
     private itemMap = new Map<number, TodoItem>

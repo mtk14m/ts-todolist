@@ -35,7 +35,7 @@ function promptAdd() {
     });
 }
 function promptComplete() {
-    console.clear();
+    //console.clear();
     inquirer.prompt({
         type: "checkbox", name: "complete", message: "Mark Tasks Complete",
         choices: collection.getTodoItems(showCompleted).map(item => ({ name: item.task, value: item.id, checked: item.complete }))
@@ -46,7 +46,7 @@ function promptComplete() {
     });
 }
 function promptUser() {
-    console.clear();
+    //console.clear();
     displayTodoList();
     inquirer
         .prompt({

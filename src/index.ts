@@ -39,7 +39,7 @@ function promptAdd(): void {
 }
 
 function promptComplete(): void{
-    console.clear();
+    //console.clear();
     inquirer.prompt({
         type: "checkbox", name:"complete", message:"Mark Tasks Complete",
         choices: collection.getTodoItems(showCompleted).map(item => 
@@ -54,7 +54,7 @@ function promptComplete(): void{
 }
 
 function promptUser(): void {
-    console.clear();
+    //console.clear();
     displayTodoList();
     inquirer
         .prompt({
